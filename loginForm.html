@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+
+<body>
+
+            <div class="form">
+                <form action="?" method="post"  >
+            
+                    <div class="form-group">
+                       <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Type name" required/>
+                      <!-- <div class="validation"></div>-->
+                    </div>
+                    <div class="form-group">
+                       <input type="password" name="password" class="form-control" id="password" placeholder="Password" data-rule="minlen:2" data-msg="Type password" required />
+                    </div>
+
+                    <p>Please choose a password type</p>
+                    <input type="radio" id="sha256" name="sha256" value="sha256">
+                    <label for="sha256">sha256</label><br>
+                    <input type="radio" id="hmac" name="hmac" value="hmac">
+                    <label for="hmac">hmac</label><br>
+
+                    <br><button type="submit" class="btn btn-primary">Submit</button> <br>
+
+                    <br><a href="url">Forgot your password?</a>
+
+
+			  </form><br>
+
+                <form action="registerForm.html">
+                    <input type="submit" value="Register" />
+                </form>
+			</div>  
+</body>
