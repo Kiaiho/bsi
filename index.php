@@ -14,6 +14,10 @@ and open the template in the editor.
         include_once('klasy/User.php');
         include_once('klasy/RegistrationForm.php');
         include_once('klasy/baza.php');
+        include_once('klasy/login.php');
+
+        $log = new Login();
+
 
         $rf = new RegistrationForm(); //wyświetla formularz rejestracji
         
